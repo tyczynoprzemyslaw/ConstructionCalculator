@@ -392,7 +392,7 @@ public class MainFrame extends javax.swing.JFrame {
         pPokojuText =String.valueOf(pokoj.alldimensions[0]);
         pSufituText =String.valueOf(pokoj.alldimensions[1]+wWneka*dWneka);    
         pScianText =String.valueOf(pokoj.alldimensions[2]+dWneka*2*h);
-        oScianText =String.valueOf(pokoj.alldimensions[3]+dWneka);
+        oScianText =String.valueOf(pokoj.alldimensions[3]+2*dWneka);
                 powCal.setText(pPokojuText);
                 obwScian.setText(oScianText);
                 powScian.setText(pScianText);
